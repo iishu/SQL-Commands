@@ -26,3 +26,8 @@ department= "IT" AND salary >10000;
 Select Unique Values From A Column
 
 SELECT DISTINCT department FROM employees;
+
+## LIKE
+Match A Pattern In A Column
+SELECT * FROM employees;
+WHERE first_name LIKE "J%";
