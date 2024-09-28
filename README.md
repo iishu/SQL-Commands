@@ -11,19 +11,26 @@ WHERE
 Filter Rows Based On Specified Conditions
 
 SELECT * FROM employees
+
 WHERE 
+
 department= "IT"
 
 ## SQL Operator
 AND
+
 Combines Multiple Conditions In A WHERE clause
 
 SELECT * FROM employees
+
 WHERE 
+
 department= "IT" AND salary >10000;
 
 ## DISTINCT
-Select Unique Values From A Column
+Select
+
+Unique Values From A Column
 
 SELECT DISTINCT department FROM employees;
 
@@ -31,6 +38,7 @@ SELECT DISTINCT department FROM employees;
 Match A Pattern In A Column
 
 SELECT * FROM employees;
+
 WHERE first_name LIKE "J%";
 
 ## OR
@@ -38,4 +46,7 @@ Specifies Multiple Conditions Where Any One
 Of Them Should Be True
 
 SELECT * FROM employees;
-WHERE department="HR" OR department ="FINANCE";
+
+WHERE department="HR" OR 
+
+department ="FINANCE";
