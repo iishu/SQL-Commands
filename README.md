@@ -29,5 +29,13 @@ SELECT DISTINCT department FROM employees;
 
 ## LIKE
 Match A Pattern In A Column
+
 SELECT * FROM employees;
 WHERE first_name LIKE "J%";
+
+## OR
+Specifies Multiple Conditions Where Any One
+Of Them Should Be True
+
+SELECT * FROM employees;
+WHERE department="HR" OR department ="FINANCE";
