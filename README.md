@@ -113,7 +113,19 @@ SELECT avg(marks)
 
 FROM student;
 
+## GROUP BY Clause
 
+Groups row s that have the same values into summary rows.
+It collects data drom multiple records and groups the result by one or more column.
+### Generally we use GROUP BY with some aggregate function.
+
+### Cunt number of students in each city
+
+SELECT city, count(name)
+FROM student
+GROUP BY city;   
+
+// this will group the names of students with their cities and will give the count of student from each cities
 
 
 
