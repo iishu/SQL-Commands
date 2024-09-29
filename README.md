@@ -50,3 +50,15 @@ SELECT * FROM employees;
 WHERE department="HR" OR 
 
 department ="FINANCE";
+
+## WHERE Clause
+
+# Using Operators in WHERE
+
+Arithmetic Operators: +,-,/,*.%
+
+Comparison Operators: =,!=,>,<.>=,<=
+
+Logical OPerators: AND, OR , IN BETWEEN , ALL, LIKE, ANY
+
+Bitwise Operators: &, ||
