@@ -75,6 +75,15 @@ SELECT * FROM student WHERE city IN ("DELHI","MUMBAI");
 
 SELECT * FROM student WHERE city NOT IN ("Delhi");
 
+## LIMIT Clause
+
+It will show data in certin limit
+
+SELECT * FROM student WHERE marks>80
+
+LIMIT 3;
+
+//It will show the data of students whose marks are >80 and will show only the data of 3 students
 
 
 
