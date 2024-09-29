@@ -17,7 +17,7 @@ WHERE
 department= "IT"
 
 ## SQL Operator
-AND
+# AND
 
 Combines Multiple Conditions In A WHERE clause
 
@@ -59,6 +59,14 @@ Arithmetic Operators: +,-,/,*.%
 
 Comparison Operators: =,!=,>,<.>=,<=
 
-Logical OPerators: AND, OR , IN BETWEEN , ALL, LIKE, ANY
+Logical Operators: AND, OR , IN BETWEEN , ALL, LIKE, ANY
 
 Bitwise Operators: &, ||
+
+## BTEWEEN OPERATOR
+
+SELECT * FROM student WHERE marks BETWEEN 80 and 90;
+
+
+
+
