@@ -71,6 +71,10 @@ SELECT * FROM student WHERE marks BETWEEN 80 and 90;
 
 SELECT * FROM student WHERE city IN ("DELHI","MUMBAI");
 
+## NOT IN
+
+SELECT * FROM student WHERE city NOT IN ("Delhi");
+
 
 
 
