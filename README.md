@@ -85,6 +85,15 @@ LIMIT 3;
 
 //It will show the data of students whose marks are >80 and will show only the data of 3 students
 
+## ORDER BY Clause
+
+to sort data in ascending(ASC) or descending(DESC)  order
+
+SELECT * FROM student
+
+ORDER BY marks ASC;
+
+this will show the data according to marks in increasing order
 
 
 
