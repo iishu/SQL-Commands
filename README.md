@@ -95,7 +95,23 @@ ORDER BY marks ASC;
 
 this will show the data according to marks in increasing order
 
+## Aggregate Function
+ #  Aggregate functions performs a calculation on a set of values and return a single value.
 
+# COUNT()
+# MAX()
+# MIN()
+# SUM()
+# AVG()
+
+SELECT max(marks)
+
+FROM student;
+
+
+SELECT avg(marks)
+
+FROM student;
 
 
 
