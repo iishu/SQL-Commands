@@ -63,9 +63,18 @@ Logical Operators: AND, OR , IN BETWEEN , ALL, LIKE, ANY
 
 Bitwise Operators: &, ||
 
-## BTEWEEN OPERATOR
+## BETWEEN OPERATOR(selects for a given range)
 
 SELECT * FROM student WHERE marks BETWEEN 80 and 90;
+
+## IN operator (matches any value in the list)
+
+SELECT * FROM student WHERE city IN ("DELHI","MUMBAI");
+
+
+
+
+
 
 
 
