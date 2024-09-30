@@ -140,5 +140,9 @@ GROUP BY city
 ORDER BY city ASC;
 
 
+###  SET SQL_SAFE_UPDATES=0
+
+//for removing the safe update error
+
 
 
