@@ -140,6 +140,14 @@ GROUP BY city
 ORDER BY city ASC;
 
 
+## UPDATE COMMAND
+
+UPDATE student
+
+SET grade="O"
+
+WHERE grade ="A"
+
 ###  SET SQL_SAFE_UPDATES=0
 
 //for removing the safe update error
