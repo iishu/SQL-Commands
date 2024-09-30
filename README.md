@@ -146,6 +146,8 @@ UPDATE student
 
 SET grade="O"
 
+
+
 WHERE grade ="A"
 
 ###  SET SQL_SAFE_UPDATES=0
