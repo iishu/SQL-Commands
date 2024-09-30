@@ -129,5 +129,16 @@ GROUP BY city;
 
 // this will group the names of students with their cities and will give the count of student from each cities
 
+## Query for finding average marks in each city in ascending order
+
+SELECT city, AVG(marks) 
+
+FROM student 
+
+GROUP BY city 
+
+ORDER BY city ASC;
+
+
 
 
