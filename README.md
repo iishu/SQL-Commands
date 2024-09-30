@@ -19,13 +19,22 @@ department= "IT"
 ## SQL Operator
 # AND
 
-Combines Multiple Conditions In A WHERE clause
+Specifies Multiple Conditions Where both 
+Of Them Should Be True
 
 SELECT * FROM employees
 
-WHERE 
+WHERE department= "IT" AND salary >10000;
 
-department= "IT" AND salary >10000;
+## OR
+Specifies Multiple Conditions Where Any One
+Of Them Should Be True
+
+SELECT * FROM employees;
+
+WHERE department="HR" OR 
+
+department ="FINANCE";
 
 ## DISTINCT
 Select
@@ -41,15 +50,8 @@ SELECT * FROM employees;
 
 WHERE first_name LIKE "J%";
 
-## OR
-Specifies Multiple Conditions Where Any One
-Of Them Should Be True
 
-SELECT * FROM employees;
 
-WHERE department="HR" OR 
-
-department ="FINANCE";
 
 ## WHERE Clause
 
