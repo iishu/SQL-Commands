@@ -184,6 +184,7 @@ SELECT Emp_name from employees WHERE
 salary=(select MAX(salary) from employees);
 
 
+
 ### UNIONS IN SQL
 
 
