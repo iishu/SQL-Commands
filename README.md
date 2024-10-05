@@ -169,6 +169,12 @@ ADD COLUMN, DROP COLUMN, RENAME TABLE, MODIFY COLUMN
 
 #### INNER JOIN, OUTER JOIN(LEFT JOIN, RIGHT JOIN, FULL JOIN)
 
+### SQL Subquery
+
+SELECT DEPT from employees WHERE 
+
+salary=(select MAX(salary) from employess);
+
 ### UNIONS IN SQL
 
 
