@@ -171,9 +171,11 @@ ADD COLUMN, DROP COLUMN, RENAME TABLE, MODIFY COLUMN
 
 ### SQL Subquery
 
-SELECT DEPT from employees WHERE 
+SELECT DEPT from employees WHERE  // outer query
 
-salary=(select MAX(salary) from employess);
+salary=(select MAX(salary) from employess);  //inner query
+
+
 
 ### UNIONS IN SQL
 
