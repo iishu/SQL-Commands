@@ -173,8 +173,15 @@ ADD COLUMN, DROP COLUMN, RENAME TABLE, MODIFY COLUMN
 
 SELECT DEPT from employees WHERE  // outer query
 
-salary=(select MAX(salary) from employess);  //inner query
+salary=(select MAX(salary) from employees);  //inner query
 
+### Practice Question
+
+Name of the employee with max salary in the employee table
+
+SELECT Emp_name from employees WHERE
+
+salary=(select MAX(salary) from employees);
 
 
 ### UNIONS IN SQL
