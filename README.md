@@ -201,6 +201,14 @@ END;
 
 #### A SQL View is a virtual table, which is based on SQL SELECT query. A view references one or more existing database tables or other views. It is the snap shot of the database whereas a stored procedure is a group of Transact-SQL statements compiled into a single execution plan.
 
+CREATE PROCEDURE procedure_name
+
+AS
+
+sql_statement
+
+GO;
+
 ### UNIONS IN SQL
 
 
