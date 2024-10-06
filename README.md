@@ -188,8 +188,15 @@ salary=(select MAX(salary) from employees);
 
 #### It is a user-defined SQL command that is invoked automatically in response to an event such as Insert, Update or Delete.
 
+#### Types of Triggers
+
+1. Data manipulation triggers
+2. Data definition triggers
+3. logical triggers
+   
+
 ### Trigger command syntax
-CREATE TORGGER
+CREATE TRIGGER
 TRIGGER_NAME TRIGGER_TIME
 ON TABLE_NAME FOR EACH ROW
 BEGIN
