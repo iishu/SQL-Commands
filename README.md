@@ -184,6 +184,10 @@ SELECT Emp_name from employees WHERE
 salary=(select MAX(salary) from employees);
 
 
+## Triggers
+
+#### It is a user-defined SQL command that is invoked automatically in response to an event such as Insert, Update or Delete.
+
 
 ### UNIONS IN SQL
 
