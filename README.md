@@ -188,6 +188,15 @@ salary=(select MAX(salary) from employees);
 
 #### It is a user-defined SQL command that is invoked automatically in response to an event such as Insert, Update or Delete.
 
+### Trigger command syntax
+CREATE TORGGER
+TRIGGER_NAME TRIGGER_TIME
+ON TABLE_NAME FOR EACH ROW
+BEGIN
+
+.....
+END;
+
 
 ### UNIONS IN SQL
 
