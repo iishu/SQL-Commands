@@ -209,6 +209,9 @@ sql_statement
 
 GO;
 
+#### Execute a Stored Procedure
+EXEC procedure_name;
+
 ### UNIONS IN SQL
 
 
