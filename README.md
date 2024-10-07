@@ -223,3 +223,18 @@ EXEC procedure_name;
 
 The UNION operator is used to combine the result-set of two or more SELECT statements.
 
+#### UNION Syntax
+
+SELECT column_name(s) FROM table1
+
+UNION
+
+SELECT column_name(s) FROM table2;
+
+#### UNION ALL
+SELECT column_name(s) FROM table1
+
+UNION ALL
+
+SELECT column_name(s) FROM table2;
+
