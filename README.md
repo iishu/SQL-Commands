@@ -238,3 +238,16 @@ UNION ALL
 
 SELECT column_name(s) FROM table2;
 
+#### SQL UNION With WHERE
+
+SELECT City, Country FROM Customers
+
+WHERE Country='Germany'
+
+UNION
+
+SELECT City, Country FROM Suppliers
+
+WHERE Country='Germany'
+
+ORDER BY City;
