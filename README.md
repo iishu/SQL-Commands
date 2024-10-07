@@ -221,5 +221,5 @@ EXEC procedure_name;
 
 ### UNIONS IN SQL
 
-
+The UNION operator is used to combine the result-set of two or more SELECT statements.
 
